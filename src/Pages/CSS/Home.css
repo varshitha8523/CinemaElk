@@ -1,0 +1,30 @@
+.movieList{
+    overflow: auto;
+     display: flex;
+     margin-left:2rem;
+;
+    
+    
+}
+
+* { scrollbar-width: none; -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
+
+.cardData{
+    width: 12rem !important;
+    height:auto !important;
+    overflow:hidden !important;
+    margin:1rem !important;
+    box-shadow: none !important;
+
+    
+    
+
+}
+
+.img{
+    width:100%;
+     height:50vh;
+     border-radius: 12px;
+     cursor: pointer;
+}
